@@ -22,6 +22,7 @@ Paper Trading Dashboard giving quick access to account details and market news
 
 Users should be able to:
 
+- Login and logout
 - See portfolio overview
 - View order history and filter based on conditions (all, opened or filled)
 - View portfolio performance
@@ -35,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://celadon-conkies-7f68d0.netlify.app/)
+- Live Site URL: (https://investopia-paper-trading-app.herokuapp.com/)
 
 ## My process
 
@@ -47,6 +48,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - React Router Dom
+- JWT 
 - [React](https://reactjs.org/) - For frontend
 - [Node.js](https://nodejs.org/en/) - For backend
 - [Express](https://expressjs.com/) - For backend
@@ -62,7 +64,6 @@ Users should be able to:
 ### Continued development
 
 - Add cancel order feature
-- Add user authentication
 - Improve error handling
 
 ### Useful resources
