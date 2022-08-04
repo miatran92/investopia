@@ -1,0 +1,29 @@
+@import '../../styles.css';
+
+.dashboard{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+.chart-container{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.d-item{
+    height: 350px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+    .dashboard{
+        width: calc(100vw - 30vw);
+        right: 0;
+    }
+}

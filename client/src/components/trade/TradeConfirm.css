@@ -1,0 +1,70 @@
+
+.trade-confirm-container{
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.trade-confirm-wrapper{
+    display: flex;
+    flex-direction: column;
+    border: solid lightgrey 0.5px;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.trade-confirm-item{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.trade-confirm-item li {
+    list-style: none;
+}
+.trade-confirm-item:nth-child(3){
+    background-color: lightgrey;
+}
+.confirm-items{
+    display: flex;
+    flex-direction: column;
+}
+.confirm-details{
+    display: flex;
+    flex-direction: column;
+}
+.confirm-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.confirm-detail span{
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    color: grey;
+}
+.confirm-item{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-weight: 600;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: lightgray;
+    font-family: 'Raleway';
+    font-size: 12px;
+}
+.arrow-right {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    margin-right: 10px;
+  }
+  
+

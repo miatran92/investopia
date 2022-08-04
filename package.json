@@ -1,0 +1,44 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "16.14.2",
+    "npm": "8.7.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alpacahq/alpaca-trade-api": "^2.16.1",
+    "@polygon.io/client-js": "^6.0.3",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.4",
+    "node-fetch": "^2.6.7",
+    "node-fetch2": "^1.6.3",
+    "nodemon": "^2.0.18",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miatran92/investopia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miatran92/investopia/issues"
+  },
+  "homepage": "https://github.com/miatran92/investopia#readme",
+  "description": ""
+}

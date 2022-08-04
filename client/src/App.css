@@ -1,0 +1,31 @@
+.App{
+    width: 100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100vh - 70px);
+    box-sizing: border-box;
+    position: relative;
+    top: 70px;
+}
+.sections > *{
+    /* top: 70px; */
+    position: relative;
+    box-sizing: border-box;
+    /* height: calc(100vh - 70px); */
+
+}
+.loading{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+    justify-content: center;
+}
+@media (min-width: 600px){
+    .sections > *{
+        width: calc(100vw - 30vw);
+        margin-left: 30vw;
+    }
+}
+
+

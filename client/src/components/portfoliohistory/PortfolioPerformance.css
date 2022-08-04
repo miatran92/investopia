@@ -1,0 +1,30 @@
+.perform-container{
+    /* width: 100vw; */
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.perform-wrapper{
+    width: 100%;
+
+}
+.perform-item{
+    width: 100%;
+
+}
+.period-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.radio-button#period-btn:hover{
+    cursor: pointer;
+}
+
+.radio-button#period-btn input:checked + span,
+.radio-button#period-btn input:checked + span:active{
+    padding: 0 20%;
+    border-top: solid var(--main-color);
+    border-bottom: none;
+}

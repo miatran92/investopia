@@ -1,0 +1,17 @@
+.account-container{
+    width: 100%;
+}
+.a-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.a-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+h5{
+    margin: 0;
+}
